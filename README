@@ -1,0 +1,23 @@
+1. Edit the config section in badge.php
+2. Include the file into your code like this:
+
+<div id="twitter-box">
+	<h2>Twitter</h2>
+	<ul id="twitter-updates"><?php include 'twitter_badge.php'; ?></ul>
+</div>
+
+3. Or since contacting Twitter may increase your site load time, use:
+
+<div id="twitter-box">
+	<h2>Twitter</h2>
+	<ul id="twitter-updates">Loading tweets...</ul>
+</div>
+
+with the following Javascript (note, this code is for jQuery; you can adjust accordingly to standard Javascript or any other framework):
+
+$(document).ready(function(){
+	$("#twitter-updates").load("twitter_badge.php");
+});
+
+4. Style #twitter-box, #twitter-updates, and #twitter-updates li however 
+you like (you can even change the ID names too).
