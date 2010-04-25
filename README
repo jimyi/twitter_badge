@@ -1,4 +1,4 @@
-1. Edit the config section in badge.php
+1. Edit the config section in twitter_badge.php
 2. Include the file into your code like this:
 
 <div id="twitter-box">
@@ -19,5 +19,4 @@ $(document).ready(function(){
 	$("#twitter-updates").load("twitter_badge.php");
 });
 
-4. Style #twitter-box, #twitter-updates, and #twitter-updates li however 
-you like (you can even change the ID names too).
+4. Style #twitter-box, #twitter-updates, and #twitter-updates li however you like (you can even change the ID/classes if you would like too).
