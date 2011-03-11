@@ -14,7 +14,7 @@
 		'update_count' => 5,  // number of updates to show; should be 20 or less
 		'update_time'  => 5,  // update every # minutes
 		'hide_replies' => TRUE,  // hide your @replies from the badge
-		'filename'     => 'twitter_cache',  // file to use as cache (only if above is true)
+		'filename'     => 'twitter_cache.txt',  // file to use as cache, must be writable by PHP
 	);
 
 	/** end configuration - nothing else needs to be modified **/
